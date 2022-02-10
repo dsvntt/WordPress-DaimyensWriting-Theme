@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    border: 4px solid #003166;
+    background: radial-gradient(#ffffff, #e6f2ff, #003166);
+}
+
+header h1{
+    text-align: center;
+    color: #003166;
+}
+
+#ylanav {
+    background-color: #e6f2ff;
+    border: 2px solid #003166;
+    margin-top: 0.5%;
+}
+
+#ylanav ul{
+    list-style: none;
+}
+
+#ylanav li{
+    display: inline-block;
+    size: 20%;
+    float: left;
+    padding: 1.8%;
+    padding-top: 0%;
+    padding-bottom: 1.5%;
+    text-align: center;
+}
+
+#ylanav::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#ylanav li a{
+    font-weight: bold;
+    color: #003166;
+    text-decoration: none;
+}
+
+#sivu h1{
+    text-align: center;
+}
+
+#k-otsikko{
+    text-align: center;
+    font-style: italic;
+}
+
+.kategoria a{
+    color: #003166;
+    text-decoration: none;
+}
+
+.kategoria{
+    margin-top: 1%;
+    padding: 1%;
+    border: 6px solid lightgray;
+}
+
